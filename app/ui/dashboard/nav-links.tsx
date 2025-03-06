@@ -1,11 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 "use client";
 
+=======
+>>>>>>> origin/main
 import {
-	UserGroupIcon,
-	HomeIcon,
-	DocumentDuplicateIcon,
+  UserGroupIcon,
+  HomeIcon,
+  DocumentDuplicateIcon,
 } from '@heroicons/react/24/outline';
+<<<<<<< HEAD
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
@@ -16,10 +20,13 @@ import {
   DocumentDuplicateIcon,
 } from '@heroicons/react/24/outline';
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+>>>>>>> origin/main
 
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
 const links = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 	{ name: 'Home', href: '/dashboard', icon: HomeIcon },
 	{
@@ -64,6 +71,18 @@ export default function NavLinks() {
 ];
 
 export default function NavLinks() {
+=======
+  { name: 'Home', href: '/dashboard', icon: HomeIcon },
+  {
+    name: 'Invoices',
+    href: '/dashboard/invoices',
+    icon: DocumentDuplicateIcon,
+  },
+  { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
+];
+
+export default function NavLinks() {
+>>>>>>> origin/main
   return (
     <>
       {links.map((link) => {
@@ -81,5 +100,8 @@ export default function NavLinks() {
       })}
     </>
   );
+<<<<<<< HEAD
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+>>>>>>> origin/main
 }

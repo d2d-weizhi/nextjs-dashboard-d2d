@@ -51,130 +51,182 @@ const customers = [
 const invoices = [
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
 =======
     customer_id: customers[0].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[0].id,
+>>>>>>> origin/main
     amount: 15795,
     status: 'pending',
     date: '2022-12-06',
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
 =======
     customer_id: customers[1].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[1].id,
+>>>>>>> origin/main
     amount: 20348,
     status: 'pending',
     date: '2022-11-14',
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: 'CC27C14A-0ACF-4F4A-A6C9-D45682C144B9',
 =======
     customer_id: customers[4].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[4].id,
+>>>>>>> origin/main
     amount: 3040,
     status: 'paid',
     date: '2022-10-29',
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: '76d65c26-f784-44a2-ac19-586678f7c2f2',
 =======
     customer_id: customers[3].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[3].id,
+>>>>>>> origin/main
     amount: 44800,
     status: 'paid',
     date: '2023-09-10',
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: '13D07535-C59E-4157-A011-F8D2EF4E0CBB',
 =======
     customer_id: customers[5].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[5].id,
+>>>>>>> origin/main
     amount: 34577,
     status: 'pending',
     date: '2023-08-05',
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: '3958dc9e-742f-4377-85e9-fec4b6a6442a',
 =======
     customer_id: customers[2].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[2].id,
+>>>>>>> origin/main
     amount: 54246,
     status: 'pending',
     date: '2023-07-16',
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
 =======
     customer_id: customers[0].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[0].id,
+>>>>>>> origin/main
     amount: 666,
     status: 'pending',
     date: '2023-06-27',
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: '76d65c26-f784-44a2-ac19-586678f7c2f2',
 =======
     customer_id: customers[3].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[3].id,
+>>>>>>> origin/main
     amount: 32545,
     status: 'paid',
     date: '2023-06-09',
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: 'CC27C14A-0ACF-4F4A-A6C9-D45682C144B9',
 =======
     customer_id: customers[4].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[4].id,
+>>>>>>> origin/main
     amount: 1250,
     status: 'paid',
     date: '2023-06-17',
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: '13D07535-C59E-4157-A011-F8D2EF4E0CBB',
 =======
     customer_id: customers[5].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[5].id,
+>>>>>>> origin/main
     amount: 8546,
     status: 'paid',
     date: '2023-06-07',
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
 =======
     customer_id: customers[1].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[1].id,
+>>>>>>> origin/main
     amount: 500,
     status: 'paid',
     date: '2023-08-19',
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: '13D07535-C59E-4157-A011-F8D2EF4E0CBB',
 =======
     customer_id: customers[5].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[5].id,
+>>>>>>> origin/main
     amount: 8945,
     status: 'paid',
     date: '2023-06-03',
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     customer_id: '3958dc9e-742f-4377-85e9-fec4b6a6442a',
 =======
     customer_id: customers[2].id,
 >>>>>>> 5386755 (Re-added the starting example.)
+=======
+    customer_id: customers[2].id,
+>>>>>>> origin/main
     amount: 1000,
     status: 'paid',
     date: '2022-06-05',
