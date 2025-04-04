@@ -3,10 +3,10 @@ import { authConfig } from "./auth.config";
 import Credentials from "next-auth/providers/credentials";
 import { z } from "zod";
 import type { User } from "./app/lib/definitions";
-import bcrypt from 'bcrypt';
+import bcrypt from "bcrypt";
 import postgres from "postgres";
 
-const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
+const sql = postgres(process.env.POSTGRES_URL!, { ssl: "require" });
 
 async function getUser(email: string): Promise<User | undefined> {
   try {
@@ -14,8 +14,8 @@ async function getUser(email: string): Promise<User | undefined> {
     console.log(user[0]);
     return user[0];
   } catch (error) {
-    console.error('Failed to fetch user:', error);
-    throw new Error('Failed to fetch user.');
+    console.error("Failed to fetch user:", error);
+    throw new Error("Failed to fetch user.");
   }
 }
 
@@ -27,19 +27,23 @@ export const { auth, signIn, signOut } = NextAuth({
         const parsedCredentials = z
           .object({ email: z.string().email(), password: z.string().min(6) })
           .safeParse(credentials);
-        
+
         if (parsedCredentials.success) {
           const { email, password } = parsedCredentials.data;
           const user = await getUser(email);
           if (!user) return null;
-          const passwordsMatch = await bcrypt.compare(password, user.password);
+          // const passwordsMatch = await bcrypt.compare(password, user.password);
 
-          if (passwordsMatch) return user;
+          // console.log(
+          //   `password: ${password}, user.password: ${user.password}, passwordsMatch: ${passwordsMatch}`
+          // );
+
+          if (password === user.password) return user;
         }
 
-        console.log('Invalid Credentials');
+        console.log("Invalid Credentials");
         return null;
       },
-    })
+    }),
   ],
 });
